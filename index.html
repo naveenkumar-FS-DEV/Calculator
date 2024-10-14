@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="inputbox">
+            <input readonly id="display">
+        </div>
+        <div class="row-1">
+            <button onclick="addToDisplay('7')" type="button">7</button>
+            <button onclick="addToDisplay('8')" type="button">8</button>
+            <button onclick="addToDisplay('9')" type="button">9</button>
+            <button onclick="addToDisplay('+')" type="button">+</button>
+        </div>
+        <div class="row-2">
+            <button onclick="addToDisplay('4')" type="button">4</button>
+            <button onclick="addToDisplay('5')" type="button">5</button>
+            <button onclick="addToDisplay('6')" type="button">6</button>
+            <button onclick="addToDisplay('-')" type="button">-</button>
+        </div>
+        <div class="row-3">
+            <button onclick="addToDisplay('1')" type="button">1</button>
+            <button onclick="addToDisplay('2')" type="button">2</button>
+            <button onclick="addToDisplay('3')" type="button">3</button>
+            <button onclick="addToDisplay('*')" type="button">*</button>
+        </div>
+        <div class="row-4">
+            <button onclick="toClearDisplay('C')" type="button">C</button>
+            <button onclick="addToDisplay('0')" type="button">0</button>
+            <button onclick="toCalculate('=')" type="button">=</button>
+            <button onclick="addToDisplay('/')" type="button">/</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
